@@ -41,7 +41,7 @@ async function displayWeather() {
 
 displayWeather();
 
-// Add event listener for the search button
+
 document.getElementById('search-button').addEventListener('click', () => {
     const searchInput = document.getElementById('search-input').value.toLowerCase();
     const weatherTiles = document.querySelectorAll('.weather-tile');
@@ -56,7 +56,7 @@ document.getElementById('search-button').addEventListener('click', () => {
     });
 });
 
-// Optional: Add "Enter" key functionality for the search bar
+
 document.getElementById('search-input').addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
         document.getElementById('search-button').click();
