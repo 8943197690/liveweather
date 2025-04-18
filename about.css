@@ -1,0 +1,81 @@
+/* General body styling */
+body {
+    font-family: 'Clash Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #1e1e1e; /* Darker header background */
+    color: #ffffff;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #333333; /* Subtle border for separation */
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #f0a500; /* Highlight color on hover */
+}
+
+header nav a.active {
+    color: #f0a500; /* Highlight active link */
+    text-decoration: underline;
+}
+
+/* About page sections */
+.about-section {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: left;
+    color: #ffffff;
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.about-section p, .about-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #bbbbbb;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 2px solid #333333;
+    text-align: center;
+}
