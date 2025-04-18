@@ -2,20 +2,20 @@ body {
     font-family: 'Clash Display', sans-serif;
     margin: 0;
     padding: 0;
-    background: #121212; /* Dark background */
-    color: #ffffff; /* White text for contrast */
+    background: #121212;
+    color: #ffffff; 
     text-align: center;
 }
 
 header {
-    background-color: #1e1e1e; /* Darker header background */
+    background-color: #1e1e1e; /
     color: #ffffff;
     padding: 1.5rem;
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid #fcfcfc5d; /* Subtle border for separation */
+    border-bottom: 2px solid #fcfcfc5d; 
 }
 
 /* Position the navigation bar in the top-right corner */
@@ -30,74 +30,71 @@ header nav a {
     text-decoration: none;
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    background: #333333; /* Dark background for the button */
+    background: #333333; 
     border-radius: 5px;
     transition: background 0.3s ease;
 }
 
 header nav a:hover {
-    background: #ec6e4c; /* Highlight color on hover */
-    box-shadow: 0 8px 150px #ec6e4c; /* Subtle shadow on hover */
+    background: #ec6e4c;
+    box-shadow: 0 8px 150px #ec6e4c;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */ 
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 1px; /* Increase the gap between tiles */
-    padding: 1  px; /* Add padding around the grid */
-    margin: 0 auto; /* Center the grid */
-    background: #fcfcfc5d; /* White background for the gaps */
-    max-width: 100%; /* Ensure it spans the full width */
-    overflow: visible; /* Allow shadows to extend beyond the container */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 1px; 
+    padding: 1  px; 
+    margin: 0 auto; 
+    background: #fcfcfc5d; 
+    max-width: 100%; 
+    overflow: visible; 
 }
 
 .weather-tile {
-    background: #1e1e1e; /* Dark tile background */
-    color: #ffffff; /* White text for readability */
-    padding: 2rem; /* Adjusted padding for better spacing */
+    background: #1e1e1e; 
+    color: #ffffff; 
+    padding: 2rem;
     text-align: center;
-    border: none; /* Remove border since gaps are now white */
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-    height: 270px; /* Increased height to accommodate the image */
+    height: 270px; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    position: relative; /* Enable positioning for child elements */
+    justify-content: center; 
+    align-items: center; 
+    position: relative
 }
 
 .weather-tile:hover {
-    transform: translateY(-5px); /* Moves the tile slightly upward */
-    background-color: #383838; /* Changes the background color on hover */
-    box-shadow: 0 0 200px 10px #ec6e4c; /* Even shadow on all sides */
+    transform: translateY(-5px); 
+    background-color: #383838; 
+    box-shadow: 0 0 200px 10px #ec6e4c; 
 }
 
 /* Enlarged temperature styling */
 .weather-tile .temperature {
     position: absolute;
-    top: 10px; /* Position at the top */
-    left: 10px; /* Position at the left */
-    font-size: 2.5rem; /* Enlarged font size */
+    top: 10px; 
+    left: 10px; 
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #ec6e4c; /* Highlighted color for temperature */
+    color: #ec6e4c; 
 }
 
-/* Other content styling */
 .weather-tile h2 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #ffffff; /* White text for headings */
+    color: #ffffff;
 }
 
 .weather-tile p {
     font-size: 0.9rem;
     margin: 0.3rem 0;
-    color: #bbbbbb; /* Light gray for secondary text */
-}
+    color: #bbbbbb;
 
 .weather-icon {
-    margin: 0.5rem 0; /* Add spacing around the icon */
+    margin: 0.5rem 0; 
 }
 
 /* Styling for the search bar */
@@ -136,11 +133,11 @@ header nav a:hover {
 }
 
 footer {
-    background-color: #1e1e1e; /* Dark footer background */
+    background-color: #1e1e1e; 
     color: #ffffff;
     padding: 1rem;
     font-size: 0.9rem;
-    border-top: 2px solid #333333; /* Subtle border for separation */
+    border-top: 2px solid #333333; 
     position: fixed;
     bottom: 0;
     width: 100%;
