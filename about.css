@@ -1,23 +1,23 @@
-/* General body styling */
+
 body {
     font-family: 'Clash Display', sans-serif;
     margin: 0;
     padding: 0;
-    background: #121212; /* Dark background */
-    color: #ffffff; /* White text for contrast */
+    background: #121212; 
+    color: #ffffff; 
     text-align: center;
 }
 
-/* Header styling */
+
 header {
-    background-color: #1e1e1e; /* Darker header background */
+    background-color: #1e1e1e; 
     color: #ffffff;
     padding: 1.5rem;
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid #333333; /* Subtle border for separation */
+    border-bottom: 2px solid #333333; 
 }
 
 header nav {
@@ -33,11 +33,11 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #f0a500; /* Highlight color on hover */
+    color: #f0a500; 
 }
 
 header nav a.active {
-    color: #f0a500; /* Highlight active link */
+    color: #f0a500;
     text-decoration: underline;
 }
 
@@ -70,7 +70,7 @@ header nav a.active {
     margin-left: 2rem;
 }
 
-/* Footer styling */
+
 footer {
     background-color: #1e1e1e;
     color: #ffffff;
