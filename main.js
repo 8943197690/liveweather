@@ -49,9 +49,9 @@ document.getElementById('search-button').addEventListener('click', () => {
     weatherTiles.forEach(tile => {
         const cityName = tile.querySelector('h2').textContent.toLowerCase();
         if (cityName.includes(searchInput)) {
-            tile.style.display = 'block'; // Show matching tiles
+            tile.style.display = 'block';
         } else {
-            tile.style.display = 'none'; // Hide non-matching tiles
+            tile.style.display = 'none'; 
         }
     });
 });
